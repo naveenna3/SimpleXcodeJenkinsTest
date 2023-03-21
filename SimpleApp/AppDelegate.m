@@ -15,7 +15,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    NSLog(@"Hello World");
+    m_newWC = [[newWC alloc]initWithWindowNibName:@"newWC"];
+    [m_newWC showWindow:nil];
 }
 
 
