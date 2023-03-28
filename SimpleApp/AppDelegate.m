@@ -16,7 +16,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     m_newWC = [[newWC alloc]initWithWindowNibName:@"newWC"];
-    [m_newW showWindow:nil];
+    [m_newWC showWindow:nil];
 }
 
 
